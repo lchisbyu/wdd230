@@ -1,8 +1,13 @@
 body{
-    max-width: 900px;
-    margin: 0 auto;
+    background-color:aqua;
 }
 
+<!-- <style>
 .header{
-    background-color: blue;
+    background-color: #b36060;
 }
+footer{
+    background-color: #6879d8
+}
+
+</style> -->
