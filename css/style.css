@@ -1,13 +1,36 @@
-body{
-    background-color:aqua;
-}
 
-<!-- <style>
+
 .header{
+
+    Width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
     background-color: #b36060;
 }
-footer{
-    background-color: #6879d8
+
+h2{
+text-align: left;
+font-family: "open sans", cursive;
+font-size: 100%
+
+
 }
 
-</style> -->
+
+.portrait{
+
+    border-radius: 5px;
+    grid-column: 1;
+    margin-top: 15px;
+    margin-left: 15px;
+    Margin-bottom: 15px;
+
+}
+
+footer{
+    Width: 50vw;
+    border-radius: 10px;
+    background-color: #b36060;
+}
+
