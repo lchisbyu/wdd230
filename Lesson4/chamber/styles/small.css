@@ -1,0 +1,46 @@
+
+/*Header styles*/
+header{
+    background-color:blueviolet;
+}
+
+/* Navigation styles */
+nav ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(218, 177, 177);
+}
+
+.navigation{
+    padding:0%;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+nav li{
+    list-style-type: none;
+    font-size: 17px;
+}
+
+nav li a{
+    padding: 10px 5px;
+    text-align: left;
+    display:block;
+    width: 100%;
+    color:white;
+    text-decoration: none; 
+}
+
+nav li:hover{
+    background-color: pink;
+    color:cadetblue
+}
+
+
