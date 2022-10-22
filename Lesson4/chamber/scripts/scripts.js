@@ -18,3 +18,4 @@ ham_menu.addEventListener("click",() => {
     firstnav.classList.toggle('responsive')}, false);  //I don't understand this
 
     window.onresize = () => {if (window.innerWidth > 760);  //I don't understand this 
+    }   

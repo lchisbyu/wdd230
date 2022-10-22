@@ -7,9 +7,10 @@ header{
 /* Navigation styles */
 nav ul{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     background-color: rgb(218, 177, 177);
+    justify-content: space-around;
 }
 
 .navigation{
@@ -18,7 +19,7 @@ nav ul{
 
 .navigation li:first-child {
 	display: block;
-}
+}S
 
 .navigation li {
 	display: none;
@@ -41,6 +42,26 @@ nav li a{
 nav li:hover{
     background-color: pink;
     color:cadetblue
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+.date{
+    text-align: center;
+}
+
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1, header h3{
+    margin: 0;
+    padding: 0;
 }
 
 
