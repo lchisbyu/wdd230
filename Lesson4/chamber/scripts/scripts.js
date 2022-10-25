@@ -15,7 +15,13 @@ const ham_menu = document.querySelector(".ham_menu");
 const first_nav = document.querySelector(".first_nav");
 
 ham_menu.addEventListener("click",() => {
-    firstnav.classList.toggle('responsive')}, false);  //I don't understand this
+    first_nav.classList.toggle('responsive')}, false);  //I don't understand this
 
     window.onresize = () => {if (window.innerWidth > 760);  //I don't understand this 
     }   
+
+// Date late modification
+const dateModifiedSpan = document.querySelector("#lastmodified")
+dateModifiedSpan.innerHTML = document.lastModified
+
+document.lastModified
