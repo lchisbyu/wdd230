@@ -10,6 +10,10 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 // long, medium, short options ... try them
 dateElement.innerHTML=fulldateUK;
 
+if (now.getDay() === 1 || now.getDay() === 2){
+    document.querySelector(".banner").style.display = "block"
+
+}
 
 const ham_menu = document.querySelector(".ham_menu");
 const first_nav = document.querySelector(".first_nav");
