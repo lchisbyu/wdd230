@@ -9,13 +9,10 @@
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/large.css" />
     <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
   </head>
 
-  <!-- <picture>
-    <source srcset="images/small.jpg" media="(min-width: 500 px) and (max-width: 799px)">
-      <source srcset="images/small.jpg" media="(min-width: 800 px)">
-    <img src="images/small.jpg" alt="three people meeting at table">
-  </picture>// -->
+  <!-- // -->
 
   <body>
     <header>
@@ -46,9 +43,13 @@
     </header>
     <main>
       <div class="hero">
-        <img src="https://via.placeholder.com/600"/>
+        <picture>
+          <source srcset="images/small.jpg" media="(min-width: 500 px) and (max-width: 799px)">
+            <source srcset="images/small.jpg" media="(min-width: 800 px)">
+          <img src="images/small.jpg" alt="three people meeting at table">
+        </picture>
         <div class="content">Welcome to City Name</div>
-        <button>Join Now</button>
+        <button>Join</button>
           
       </div>
       
@@ -62,8 +63,8 @@
       
         <div class="weather"><h3>Weather</h3>
         <div class="row">
-      <img src="https://via/placholder.com/30" width="30" height="30" />
-      <p><span class= "temperature"></span> 33F </p>
+      <img src="https://via.placholder.com/30" width="30" height="30" />
+      <p><span class= "temperature">33</span> F </p>
       </div>
       
       <h4>Partly Cloudy</h4>
@@ -75,7 +76,7 @@
       </div>
       
       <div class="row">
-        <p>Wind speed:</p>
+        <p>Wind Chill:</p>
         <p><span class="wind_chill">N/A</span> mph</p>
       </div> </div>
 
