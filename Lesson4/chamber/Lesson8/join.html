@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="lesson3 wdd230 bYUI" />
-    <link rel="stylesheet" href="styles/small.css" />
-    <link rel="stylesheet" href="styles/medium.css" />
-    <link rel="stylesheet" href="styles/large.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../styles/small.css" />
+    <link rel="stylesheet" href="../styles/medium.css" />
+    <link rel="stylesheet" href="../styles/large.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -31,11 +31,13 @@
         </ul>
       </nav>
     </header>
-    <main id=""joinMain">
-    <div id="joinDiv>
-        <h1 id='joinHeader">Join Bluffdale Chamber</h1>
-        <form action="method="get">
-            <div id="message"></div>
+    <main id="joinMain">
+      <div id="joinDiv">
+        <h1 id="joinHeader">Join Bluffdale Chamber</h1>
+        <form action="thankyoupage.html" method="get">
+          <div id="message"></div>
+
+          <div>
             <label for="fname">First name:</label>
             <input
               type="text"
@@ -44,6 +46,8 @@
               required
               placeholder="Enter your first name"
             />
+          </div>
+          <div>
             <label for="lname">Last name:</label>
             <input
               type="text"
@@ -52,6 +56,8 @@
               required
               placeholder="Enter your last name"
             />
+          </div>
+          <div>
             <label for="btitle">Position Title:</label>
             <input
               type="text"
@@ -60,6 +66,8 @@
               required
               placeholder="Enter your position title"
             />
+          </div>
+          <div>
             <label for="email">Email address:</label>
             <input
               type="text"
@@ -68,6 +76,8 @@
               required
               placeholder="bob@gmail.com"
             />
+          </div>
+          <div>
             <label for="phone">Phone number:</label>
             <input
               type="phone"
@@ -76,28 +86,34 @@
               required
               placeholder="Enter your phone #"
             />
-        </form>
-        <select id="membership">
-            <option>Select a Membership</option>
-            <option>NP Membership</option>
-            <option>Bronze Membership.</option>
-            <option>Silver Membership.</option>
-            <option>Gold Membership.</option>
-          </select>
-          <label for="comments">Business Description:</label>
-          <textarea
-            id="comments"
-            name="comments"
-            required
-            placeholder="Enter a brief description of your business"
-          ></textarea>
-          <button id="btnSubmit" type="submit" onclick="thankYou.html">Join Now!</button>
-          <input type="hidden" id="date" name="date" value="CurrentTime"> 
-          <input type="hidden" id="time" name="time" value="CurrentDate">
+          </div>
+          <div>
+            <select id="membership">
+              <option>Select a Membership</option>
+              <option>NP Membership</option>
+              <option>Bronze Membership.</option>
+              <option>Silver Membership.</option>
+              <option>Gold Membership.</option>
+            </select>
+          </div>
+          <div id="business_block">
+            <label for="comments">Business Description:</label>
+            <textarea
+              id="comments"
+              name="comments"
+              required
+              placeholder="Enter a brief description of your business"
+            ></textarea>
+          </div>
+          <button id="btnSubmit" type="submit" onclick="thankYou.html">
+            Join Now!
+          </button>
+          <input type="hidden" id="date" name="date" value="CurrentTime" />
+          <input type="hidden" id="time" name="time" value="CurrentDate" />
         </form>
       </div>
     </main>
-   <!-- <form>
+    <!-- <form>
       <label for="fname">First name:</label><br />
       <input type="text" id="fname" name="fname" /><br />
       <label for="lname">Last name:</label><br />
@@ -136,11 +152,7 @@
 
   <footer>
     <section id="section1">
-      <img
-        id="logo"
-        src="images/"
-        alt=""
-      />
+      <img id="logo" src="images/" alt="" />
       <h2 id="name">Bluffdale City Chamber of Commerce</h2>
       <p id="address">14400 South 2200 West</p>
       <p id="email">citychamber@bluffdale.com</p>
@@ -152,10 +164,9 @@
       <p>
         &copy;
         <span id="yearDate"></span>
-       Bluffdale City Chamber of Commerce
+        Bluffdale City Chamber of Commerce
       </p>
       <h2>Lora Chisholm</h2>
-      
     </section>
   </footer>
 </html>
